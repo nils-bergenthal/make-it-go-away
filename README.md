@@ -33,7 +33,7 @@ People who are good at their work but not at writing instructions for an AI or d
    - In Claude.ai: open your account settings and look for the skills section. Upload the folder there as a ZIP file. The menu names can change.
    - In Claude Code: copy the folder into your skills folder (`.claude/skills/`).
    - With the command line: `npx skills add nils-bergenthal/make-it-go-away`
-2. Start a new conversation and say: `Make it go away: [the annoying task]`
+2. Start a new conversation and say: `Make it go away: [your problem, described briefly]`
 3. Answer one question at a time. Say "result now" at any time.
 
 Replace names and numbers before you paste anything. The conversation runs through the company behind your AI. Do not enter passwords, access data or real customer or patient data.

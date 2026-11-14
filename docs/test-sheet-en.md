@@ -7,7 +7,7 @@ Thank you for helping. It takes about 20 minutes.
 - Replace names and numbers. Do not enter real customer or patient data.
 
 ## Steps
-1. Start a new conversation and say: `Make it go away: [your annoyance in one sentence]`
+1. Start a new conversation and say: `Make it go away: [your problem, described briefly]`
 2. Answer the questions. Say "result now" when you have had enough.
 
 ## Questions afterwards
