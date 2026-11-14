@@ -40,7 +40,11 @@ Replace names and numbers before you paste anything. The conversation runs throu
 
 ## An example
 
-See `skills/make-it-go-away/examples/invoices.md` for a short, invented conversation with its result.
+Three short, invented conversations with their results, from easy to hard:
+
+- `skills/make-it-go-away/examples/invoices.md`: invoices from emails into a table. Verdict: build with conditions.
+- `skills/make-it-go-away/examples/reminders.md`: appointment reminders in a physiotherapy practice. Health data, a ready-made tool that may exist. Verdict: clarify first.
+- `skills/make-it-go-away/examples/thank-you-mails.md`: thank-you mails in a bike shop. Too small to plan. Verdict: do not build.
 
 ## Works with other skills
 
