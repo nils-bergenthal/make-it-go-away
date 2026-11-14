@@ -22,7 +22,7 @@ Then show me the last real case.
 **Claude:**
 
 ```
-◉ **Result at the end**
+🔹 **Result at the end**
 
 What should be there when this is done?
 
@@ -36,7 +36,7 @@ What should be there when this is done?
 **Claude:**
 
 ```
-◉ **How often**
+🔹 **How often**
 
 How often does this happen, roughly?
 
@@ -50,7 +50,7 @@ How often does this happen, roughly?
 **Claude:**
 
 ```
-◉ **Build or not**
+🔹 **Build or not**
 
 At 60 a month, I would build it, and you check the first results.
 The other way is a ready-made tool. Which do you prefer?
@@ -67,7 +67,7 @@ The other way is a ready-made tool. Which do you prefer?
 **Claude:**
 
 ```
-◉ **The case that did not fit**
+🔹 **The case that did not fit**
 
 What did the last case look like that did not fit?
 
@@ -87,7 +87,7 @@ Test case 1: one email, one PDF invoice. One new row, PDF filed.
 Test case 2: one email, two PDF invoices. Two new rows.
 Still open: how paying is handled, where the table lives, who looks after it.
 
-◉ **Test cases**
+🔹 **Test cases**
 
 I have drafted more cases. Is anything wrong or missing?
 
@@ -112,7 +112,7 @@ The table that came with it:
 **Claude:**
 
 ```
-◉ **Paying later**
+🔹 **Paying later**
 
 I put "paying invoices" on the list for later. Row 4 is changed.
 
@@ -128,7 +128,7 @@ Which programs are involved, and where does the data live?
 **Claude:**
 
 ```
-◉ **Access**
+🔹 **Access**
 
 Who has access to the mailbox and the file?
 
@@ -142,7 +142,7 @@ Who has access to the mailbox and the file?
 **Claude:**
 
 ```
-◉ **Looking after it**
+🔹 **Looking after it**
 
 Who notices when something is wrong once it runs?
 
@@ -161,7 +161,7 @@ Who notices when something is wrong once it runs?
 **Now:** Risks. **Done:** Case, Test cases. **Next:** Result.
 Still open: who looks after it, who has to agree.
 
-◉ **What could go wrong**
+🔹 **What could go wrong**
 
 What could go wrong, so that you stop using the program or the idea we are talking about?
 
@@ -175,7 +175,7 @@ What could go wrong, so that you stop using the program or the idea we are talki
 **Claude:**
 
 ```
-◉ **Is this enough**
+🔹 **Is this enough**
 
 Then an unclear invoice goes to you and not into the table. The core is settled.
 Is this enough for you, or shall we go on?
