@@ -19,7 +19,7 @@ If the idea is probably not worth it, it says so early and in one sentence. Plan
 
 ## Who it is for
 
-People who are good at their work but not at writing instructions for an AI or detailed task descriptions. A therapist, a site manager, an office worker who watched a video and wants to automate something. It uses everyday words and explains a technical term once, when it is needed. It answers in your language.
+People who are good at their work but not at writing instructions for an AI or detailed task descriptions. A carpenter, a site manager, an office worker who watched a video and wants to automate something. It uses everyday words and explains a technical term once, when it is needed. It answers in your language.
 
 ## Who it is not for
 
@@ -43,7 +43,7 @@ Replace names and numbers before you paste anything. The conversation runs throu
 Three short, invented conversations with their results, from easy to hard:
 
 - `skills/make-it-go-away/examples/invoices.md`: invoices from emails into a table. Verdict: build with conditions.
-- `skills/make-it-go-away/examples/reminders.md`: appointment reminders in a physiotherapy practice. Health data, a ready-made tool that may exist. Verdict: clarify first.
+- `skills/make-it-go-away/examples/reminders.md`: lesson reminders in a driving school. Personal data of young people, a ready-made tool that may exist. Verdict: clarify first.
 - `skills/make-it-go-away/examples/thank-you-mails.md`: thank-you mails in a bike shop. Too small to plan. Verdict: do not build.
 
 ## Works with other skills

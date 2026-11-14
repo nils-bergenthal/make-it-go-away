@@ -1,12 +1,12 @@
-# Example: appointment reminders in a physiotherapy practice
+# Example: lesson reminders in a driving school
 
-This example is invented. All names, firms and numbers are made up. It shows a harder case: personal data, a ready-made tool that may exist, and a verdict of "clarify first".
+This example is invented. All names, firms and numbers are made up. It shows a harder case: personal data of young people, a ready-made tool that may exist, and a verdict of "clarify first".
 
-Lena runs the front desk of a small physiotherapy practice. She talks to Claude with the skill switched on.
+Lena runs the office of a small driving school. She talks to Claude with the skill switched on.
 
 ## The conversation
 
-**Lena:** Make it go away: calling patients to remind them of their appointments.
+**Lena:** Make it go away: calling students to remind them of their driving lessons.
 
 **Claude:**
 
@@ -26,8 +26,8 @@ Then show me the last real case.
 
 What should be there when this is done?
 
-  a) Every patient gets a reminder the day before
-  b) Only patients who often miss an appointment get one
+  a) Every student gets a reminder the day before
+  b) Only students who often miss a lesson get one
   c) Something else, describe it briefly
 ```
 
@@ -38,7 +38,7 @@ What should be there when this is done?
 ```
 🔹 **How often**
 
-How many appointments do you remind about, roughly?
+How many lessons do you remind about, roughly?
 
   a) About 5 a month
   b) About 50 a month
@@ -52,10 +52,10 @@ How many appointments do you remind about, roughly?
 ```
 🔹 **Build or not**
 
-At 800 a month, this is worth a look. Your practice program may already send
+At 800 a month, this is worth a look. Your school program may already send
 reminders. Nobody has checked yet. What do you want to do?
 
-  a) Check the practice program first
+  a) Check the school program first
   b) Build something of our own
   c) Something else, describe it briefly
 
@@ -73,20 +73,20 @@ I noted "Does it already exist?" as still open. The company that supplies the pr
 
 What did the last case look like that did not fit?
 
-  a) An appointment was moved after the reminder
-  b) A patient did not want any messages
+  a) A lesson was moved after the reminder
+  b) A student did not want any messages
   c) Something else, describe it briefly
 ```
 
-**Lena:** Both. A moved appointment, and one patient who asked us never to send messages.
+**Lena:** Both. A moved lesson, and one student who asked us never to send messages.
 
 **Claude:**
 
 ```
 **Now:** Case. **Next:** Test cases, Risks, Result.
-Draft, not final. Goal: every patient gets a reminder the day before.
-Test case 1: normal appointment. One message the day before.
-Test case 2: patient wants no messages. No message, stays on your call list.
+Draft, not final. Goal: every student gets a reminder the day before.
+Test case 1: normal lesson. One message the day before.
+Test case 2: student wants no messages. No message, stays on your call list.
 Still open: does the program already do it, who agreed to messages, where the data goes.
 
 🔹 **Test cases**
@@ -102,13 +102,13 @@ The table that came with it:
 
 | No. | When this comes in | This should come out |
 | --- | --- | --- |
-| 1 | Normal appointment tomorrow | One message the day before |
-| 2 | Patient asked for no messages | No message, stays on the call list |
-| 3 | Appointment moved after the message | A new message with the new time |
-| 4 | Patient has two appointments on one day | One message with both times |
+| 1 | Normal lesson tomorrow | One message the day before |
+| 2 | Student asked for no messages | No message, stays on the call list |
+| 3 | Lesson moved after the message | A new message with the new time |
+| 4 | Student has two lessons on one day | One message with both times |
 | 5 | No phone number saved | No message, note for Lena |
 | 6 | Message cannot be sent | Note for Lena, she calls |
-| 7 | Appointment in less than two hours | No message, Lena decides |
+| 7 | Lesson in less than two hours | No message, Lena decides |
 
 **Lena:** Row 7 is wrong. Then we call, always. The rest is right.
 
@@ -119,8 +119,8 @@ The table that came with it:
 
 Row 7 is changed. Which programs are involved, and where does the data live?
 
-  a) Everything stays in the practice program on our computer
-  b) The data leaves the practice, for example to a message service
+  a) Everything stays in the school program on our computer
+  b) The data leaves the school, for example to a message service
   c) Something else, describe it briefly
 ```
 
@@ -133,10 +133,10 @@ Row 7 is changed. Which programs are involved, and where does the data live?
 
 I noted "where the data lives" as still open. The company behind the program can tell you.
 
-Who has access to the appointments and the phone numbers?
+Who has access to the lessons and the phone numbers?
 
   a) Only me
-  b) Me and the three therapists
+  b) Me and the three driving instructors
   c) Something else, describe it briefly
 ```
 
@@ -153,7 +153,7 @@ Who notices when something is wrong once it runs?
   b) Someone else, I name them
   c) Nobody yet
 
-**My suggestion:** a), with one therapist as stand-in.
+**My suggestion:** a), with one instructor as stand-in.
 ```
 
 **Lena:** a
@@ -162,25 +162,25 @@ Who notices when something is wrong once it runs?
 
 ```
 **Now:** Risks. **Done:** Case, Test cases. **Next:** Result.
-Still open: who has to agree, whether patients agreed to messages.
+Still open: who has to agree, whether students agreed to messages.
 
 🔹 **What could go wrong**
 
 What could go wrong, so that you stop using the program or the idea we are talking about?
 
   a) A message goes to the wrong number
-  b) Patients complain about messages they did not agree to
+  b) Students complain about messages they did not agree to
   c) Something else, describe it briefly
 ```
 
-**Lena:** b. Some older patients do not want that.
+**Lena:** b. Some students do not want that.
 
 **Claude:**
 
 ```
 🔹 **Is this enough**
 
-Then every patient needs a clear yes before the first message. The core is settled.
+Then every student needs a clear yes before the first message. The core is settled.
 Is this enough for you, or shall we go on?
 
   a) Enough, write the result
@@ -201,38 +201,38 @@ Gaps: does the program already do it, where the data goes, who agreed, how long 
 **Build brief (short form)**
 
 > **Verdict: clarify first.** Reminders are worth having at 800 a month, but two answers could change everything.
-> For the boss, in one sentence: Probably yes, but not before we know if the program can already do it and if patients agreed to messages.
-> Conditions before building: 1. The company behind the program says if reminders exist. 2. Someone checks that patients agreed to messages.
-> Health data is involved. This is a reminder to check, not legal advice.
+> For the boss, in one sentence: Probably yes, but not before we know if the program can already do it and if students agreed to messages.
+> Conditions before building: 1. The company behind the program says if reminders exist. 2. Someone checks that students agreed to messages.
+> Personal data of students is involved, some of them under 18. This is a reminder to check, not legal advice.
 
 | Field | Content |
 | --- | --- |
-| Goal | Every patient who agreed gets a reminder the day before |
+| Goal | Every student who agreed gets a reminder the day before |
 | How often | About 800 a month |
-| Where does it run, who has access? | Practice program, online. Access for Lena and three therapists. Where the data goes: still open. |
+| Where does it run, who has access? | Practice program, online. Access for Lena and three driving instructors. Where the data goes: still open. |
 | Test cases | The seven rows above, row 7 changed to "Lena calls" |
-| Special cases | Moved appointments, two appointments a day, no number |
-| Risk | Messages to patients who did not agree. Countermeasure: only patients with a saved yes get one. This is my suggestion. |
+| Special cases | Moved lessons, two lessons a day, no number |
+| Risk | Messages to students who did not agree. Countermeasure: only students with a saved yes get one. This is my suggestion. |
 | Who has to agree? | Still open: the person for data protection. |
 | Who looks after it? | Lena |
-| List for later | Replies from patients |
+| List for later | Replies from students |
 
 **Task for Claude to copy (short form)**
 
 - At the top: the condition "Does the program already do it?" and the open question who has to agree.
 - Goal, programs and access as in the build brief.
 - The seven test cases.
-- Limits: no message to patients without a yes. Lena calls when an appointment is less than two hours away.
-- Do not build: answering replies from patients.
-- Data protection paragraph: Which data: name, phone number, appointment time. This shows that someone is a patient, so treat it as health data. Who may see it: Lena and the three therapists. How long it is kept: still open. Where it stays: still open. This is a reminder to check, not legal advice.
+- Limits: no message to students without a yes. Lena calls when a lesson is less than two hours away.
+- Do not build: answering replies from students.
+- Data protection paragraph: Which data: name, phone number, lesson time. Some students are under 18, so treat the data with extra care. Who may see it: Lena and the three driving instructors. How long it is kept: still open. Where it stays: still open. This is a reminder to check, not legal advice.
 
 **Suggestion, please confirm (not part of the task)**
 
-- No treatment details in any message.
-- A test week with five patients who agreed.
+- No details about fees or test results in any message.
+- A test week with five students who agreed.
 
 **Final recommendation**
 
-Have it checked first. Sensitive data and many patients are involved. Before building, have the brief checked by a second place, for example the person for data protection.
+Have it checked first. Personal data of young people and many students are involved. Before building, have the brief checked by a second place, for example the person for data protection.
 
 Next step: Lena asks the company behind the program if reminders exist.
