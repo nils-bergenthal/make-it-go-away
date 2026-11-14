@@ -16,4 +16,6 @@
 
 ## Reporting a problem
 
-Open an issue in this repository. Describe what happened and what you expected. Do not post secrets or personal data in an issue.
+For a security problem, use "Report a vulnerability" under the "Security" tab of this repository. The report stays private. No email address is needed.
+
+For anything else, open an issue. Describe what happened and what you expected. Do not post secrets or personal data in an issue or a report.
