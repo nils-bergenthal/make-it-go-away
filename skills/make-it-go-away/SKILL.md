@@ -27,7 +27,7 @@ Read `references/wording.md` before your first message. It holds the replacement
 
 Use this layout every time, in this order:
 
-1. First line: the sign ○ and a short title of two to four words.
+1. First line: the sign ◉ and a short title of two to four words.
 2. An empty line, then the question alone on one line. Say what you ask for, and why, so a stranger can answer on the first read.
 3. The choices, indented, as a), b), c). The last one is "Something else, describe it briefly". Never offer one complete sentence the user can copy as it is.
 4. Last line: "My suggestion: ..." (in the user's language), only when you recommend something.
