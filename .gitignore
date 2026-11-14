@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Working folder of the skill (progress notes and build briefs from trial runs)
+/make-it-go-away/
+
+# Test output
+/evals/output/
+/evals/tmp/
+*.log
+
+# Local build results
+*.zip
+/dist/
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
