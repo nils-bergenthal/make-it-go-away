@@ -17,4 +17,4 @@ Thank you for helping. It takes about 20 minutes.
 4. Would you recommend it to a colleague? Why, or why not?
 5. Was anything too long, too short or too much?
 
-You can send your answers as an issue in this repository. The issue form has the same questions.
+Where to send your answers: use the feedback form under "Issues" on the GitHub page (a free account is needed). It has the same questions. Or write your answers down and give them to whoever shared the skill with you.

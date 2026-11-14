@@ -1,13 +1,12 @@
 # Build brief template
 
-Notes for filling in. Leave these notes out of the finished file.
+Notes for filling in. Leave them out of the finished file.
 
-- **The headings and field names below are English working labels.** In the finished file, every visible heading, column name and label is in the user's language. Word it the way people talk, do not translate word for word. German example: "Wo läuft es, wer hat Zugang?" and "Wer kümmert sich darum?".
-- Track the origin of every point: said (the user said or confirmed it), assumed (you added it), derived (it follows from the case). Do not show a column or label called "origin". Mark only your own additions with a plain note, for example below the table: "Rows 1 and 7 are my suggestion."
-- No must-have point, name, number, person or state that did not come up in the conversation. Where something is missing, write "still open" and who might know. Not asked means "still open", never "there is none".
+- Headings and field names below are English working labels. In the finished file every heading and label is in the user's language and worded the way people talk. German example: "Wo läuft es, wer hat Zugang?".
+- Keep track of where each point came from (said, assumed, derived), but show no "origin" column. Mark your own additions with one plain line, for example "Rows 1 and 7 are my suggestion."
+- Nothing that did not come up in the conversation. Missing means "still open", with who might know, never "there is none".
 - If "Where it runs" or "Who looks after it" is empty, put the stop notice there.
-- Short sentences. No technical word without an explanation in brackets.
-- No passwords, no access data, no real customer names.
+- Short sentences. No technical word without an explanation. No passwords, no real customer names.
 
 Everything below the line is the template.
 
@@ -30,30 +29,32 @@ Date: [date]. Status: [draft or final].
 
 ## 1. Goal
 
-[One sentence: what should be there at the end.] (said)
+[One sentence: what should be there at the end.]
 
-How often: [roughly, per month]. (said)
+How often: [roughly, per month].
 
 Recommendation: [do not automate / make the manual way lighter / take a ready-made tool / build it yourself]. Reason: [one sentence]. Decided by the user: [yes or no].
 
 ## 2. Where does it run, who has access? (required)
 
-| Question | Answer | Origin |
-| --- | --- | --- |
-| Which programs are involved? | | |
-| Where does the data live? | | |
-| Who has access? | | |
+| Question | Answer |
+| --- | --- |
+| Which programs are involved? | |
+| Where does the data live? | |
+| Who has access? | |
 
 ## 3. Test cases
 
 When this comes in, this should come out.
 
-| No. | When this comes in | This should come out | Kind | Origin |
-| --- | --- | --- | --- | --- |
-| 1 | | | normal | |
-| 2 | | | special case | |
-| 3 | | | goes wrong | |
-| 4 | | | needs a person | |
+| No. | When this comes in | This should come out | Kind |
+| --- | --- | --- | --- |
+| 1 | | | normal |
+| 2 | | | special case |
+| 3 | | | goes wrong |
+| 4 | | | needs a person |
+
+Below the table, one plain line for your own additions, for example: "Rows 1 and 7 are my suggestion."
 
 Kinds: normal, special case, goes wrong, needs a person (must not run automatically).
 
@@ -61,17 +62,17 @@ Every row: a concrete input and a result someone can check.
 
 ## 4. Special cases
 
-- [Special case and what should happen then.] ([origin])
+- [Special case and what should happen then.]
 
 ## 5. Risks and countermeasures
 
 What could go wrong, so that you stop using the program or the idea we are talking about?
 
-| Reason | Countermeasure | Origin |
-| --- | --- | --- |
-| [Reason the user picked or added] | | |
+| Reason | Countermeasure |
+| --- | --- |
+| [Reason the user picked or added] | |
 
-A countermeasure the user did not confirm is "assumed".
+A countermeasure the user did not confirm is your suggestion. Say so in one plain line below the table.
 
 ## 6. Who has to agree?
 
@@ -83,9 +84,9 @@ Write "not needed" only if the user said so. Staff representation: in Germany an
 
 ## 7. Who looks after it? (required)
 
-- Person in charge: [name or role the user gave, or "still open"] ([origin])
-- Stand-in: [as above] ([origin])
-- Gets told about errors: [who, and how] ([origin])
+- Person in charge: [name or role the user gave, or "still open"]
+- Stand-in: [as above]
+- Gets told about errors: [who, and how]
 
 ## 8. Still open
 
@@ -97,13 +98,7 @@ Write "not needed" only if the user said so. Staff representation: in Germany an
 
 - [Thoughts that came up and are not part of this version.]
 
-## 10. Self-check
-
-- Contradictions: [none, or which]
-- Assumptions: [which points are assumed]
-- Gaps: [which points are still open]
-
-## 11. After two weeks (optional)
+## 10. After two weeks (optional)
 
 - [ ] Did it run on every expected day?
 - [ ] Did someone check a handful of results by hand?
@@ -116,12 +111,10 @@ Write "not needed" only if the user said so. Staff representation: in Germany an
 
 # Task for Claude to copy
 
-Notes for filling in. Leave these out of the finished file.
+Notes for filling in. Leave them out of the finished file.
 
-- Fill this from the build brief above. Add nothing new.
-- Open approvals and stop notices stay at the very top.
-- A point marked "assumed" in the build brief is marked "(assumed)" here too.
-- "Limits" and "Do not build" hold what the user said or confirmed. Your own ideas go in the block "Suggestion, please confirm" at the end. That block is not part of the text to copy.
+- Fill this from the build brief above. Add nothing new. Open approvals and stop notices stay at the very top.
+- Points you added yourself are marked "(my suggestion)". "Limits" and "Do not build" hold only what the user said or confirmed. Your own ideas go in the block at the end, which is not part of the text to copy.
 
 Everything below the line is the text the user copies.
 
@@ -131,7 +124,7 @@ Everything below the line is the text the user copies.
 
 - Stop notice: [none, or: "Where it runs / Who looks after it is not clear yet. Ask me about it before you build."]
 - Open approvals: [none, or who still has to agree, and to what.]
-- Points marked "(assumed)" are not confirmed. Ask me before you build on them.
+- Points marked "(my suggestion)" are not confirmed. Ask me before you build on them.
 
 **Goal**
 

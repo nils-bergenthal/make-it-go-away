@@ -2,13 +2,13 @@
 
 A few questions, then a build brief, or an honest no.
 
-**Status: beta.** It works, it is small, and it has been tried on a handful of cases only.
+**Status: beta.** It works, it is small, and it has been tried on one real case only.
 
 ## What it is
 
 People don't want drills, they want holes. When you ask an AI to build something for your work, it often builds the drill and misses the hole. Later you find out what was forgotten: who else is affected, the odd cases, the data, the access, who looks after it, who has to agree.
 
-`make-it-go-away` is an agent skill that asks those questions first. You tell it about a task that keeps coming back and annoys you. It asks one plain question at a time, starting from a real case. At the end you get:
+`make-it-go-away` is a small add-on for AI assistants (an "agent skill", for example for Claude) that asks those questions first. You tell it about a task that keeps coming back and annoys you. It asks one plain question at a time, starting from a real case. At the end you get:
 
 - a **verdict** at the top: build, build with conditions, clarify first, or do not build
 - a **build brief**: a short written order you can build from and check against, with test cases
@@ -19,17 +19,19 @@ If the idea is probably not worth it, it says so early and in one sentence. Plan
 
 ## Who it is for
 
-People who are good at their work but not at writing prompts or specifications. A therapist, a site manager, an office worker who watched a video and wants to automate something. It uses everyday words and explains a technical term once, when it is needed. It answers in your language.
+People who are good at their work but not at writing instructions for an AI or detailed task descriptions. A therapist, a site manager, an office worker who watched a video and wants to automate something. It uses everyday words and explains a technical term once, when it is needed. It answers in your language.
 
 ## Who it is not for
 
 - It does not build the automation. It clarifies what should be built.
-- It is not for product specifications for software teams (PRDs) or user stories.
+- It is not for the product descriptions of software teams ("PRDs") or for user stories (short feature descriptions).
 - It is not a replacement for a specialist, a lawyer or a data protection officer.
 
 ## How to use it
 
-1. Put the folder `skills/make-it-go-away` into the skills folder of your agent. In Claude Code that is `~/.claude/skills/`. In Claude.ai you can add it as a skill in your account settings.
+1. Download this page as a ZIP file (on GitHub: the green "Code" button, then "Download ZIP"). The folder `skills/make-it-go-away` inside it is the skill.
+   - In Claude.ai: open your account settings and look for the skills section. Upload the folder there as a ZIP file. The menu names can change.
+   - In Claude Code: copy the folder into your skills folder (`.claude/skills/`).
 2. Start a new conversation and say: `Make this go away: [the annoying task]`
 3. Answer one question at a time. Say "result now" at any time.
 
@@ -46,7 +48,7 @@ It works alongside general interview and review skills. A review round after the
 ## What we know and do not know
 
 - It has not yet been compared with an ordinary chat in a controlled test, so there are no numbers on how much it finds that a plain request would miss.
-- It has been tried on a real case by one person, who rated it positively. It has not yet been tested with people who do not know it. If you try it, feedback is welcome. Use the feedback form under Issues, or the test sheet in `docs/test-sheet-en.md` (German: `docs/test-sheet-de.md`).
+- It has been tried on a real case by one person, who rated it positively. It has not yet been tested with people who do not know it. If you try it, feedback is welcome. Use the feedback form under "Issues" on this page (a free GitHub account is needed), or write down your answers from `docs/test-sheet-en.md` (German: `docs/test-sheet-de.md`) and give them to whoever shared the skill with you.
 - Treat the results as a starting point. A build brief lowers the chance of a miss. It does not remove it.
 
 ## Notes

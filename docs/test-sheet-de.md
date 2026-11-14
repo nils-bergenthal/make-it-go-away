@@ -5,6 +5,7 @@ Danke, dass du mitmachst. Das dauert etwa 20 Minuten.
 ## Vorher (für die Person, die den Test betreut)
 - Sprich vorher ab, ob die Antworten anonym genutzt werden dürfen.
 - Hilf nicht beim Antworten und erkläre nichts. Schau nur zu und notiere, wo jemand stockt.
+- Die Antworten kannst du auf einem Zettel sammeln. Ein GitHub-Konto brauchst du dafür nicht.
 
 ## Ablauf
 1. Such dir eine Aufgabe aus deinem Alltag aus, die immer wiederkommt und nervt.
