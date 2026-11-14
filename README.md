@@ -2,7 +2,7 @@
 
 A few questions, then a build brief, or an honest no.
 
-**Status: beta.** It works, it is small, and it has been tried on one real case only.
+**Status: beta.** It works, it is small, and it has been tried on two real cases by the same person only.
 
 ## What it is
 
@@ -38,7 +38,7 @@ People who are good at their work but not at writing instructions for an AI or d
 
 Replace names and numbers before you paste anything. The conversation runs through the company behind your AI. Do not enter passwords, access data or real customer or patient data.
 
-## An example
+## Examples
 
 Three short, invented conversations with their results, from easy to hard:
 
@@ -53,7 +53,7 @@ It works alongside general interview and review skills. A review round after the
 ## What we know and do not know
 
 - It has not yet been compared with an ordinary chat in a controlled test, so there are no numbers on how much it finds that a plain request would miss.
-- It has been tried on a real case by one person, who rated it positively. It has not yet been tested with people who do not know it. If you try it, feedback is welcome. Use the feedback form under "Issues" on this page (a free GitHub account is needed), or write down your answers from `docs/test-sheet-en.md` (German: `docs/test-sheet-de.md`) and give them to whoever shared the skill with you.
+- It has been tried on two real cases by one person, who rated it positively. It has not yet been tested with people who do not know it. If you try it, feedback is welcome. Use the feedback form under "Issues" on this page (a free GitHub account is needed), or write down your answers from `docs/test-sheet-en.md` (German: `docs/test-sheet-de.md`) and give them to whoever shared the skill with you.
 - Treat the results as a starting point. A build brief lowers the chance of a miss. It does not remove it.
 
 ## Notes
