@@ -81,7 +81,7 @@ What did the last case look like that did not fit?
 **Claude:**
 
 ```
-● ○ ○ ○  Case · Test cases · Risks · Result
+Now: Case. Next: Test cases, Risks, Result.
 Draft, not final. Goal: every invoice from the mailbox is a row in the table.
 Test case 1: one email, one PDF invoice. One new row, PDF filed.
 Test case 2: one email, two PDF invoices. Two new rows.
@@ -158,7 +158,7 @@ My suggestion: a), with Jonas as stand-in.
 **Claude:**
 
 ```
-● ● ● ○  Case · Test cases · Risks · Result
+Now: Risks. Done: Case, Test cases. Next: Result.
 Still open: who looks after it, who has to agree.
 
 ◉ What could go wrong
