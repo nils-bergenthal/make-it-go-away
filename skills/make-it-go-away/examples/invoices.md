@@ -6,7 +6,7 @@ Mara runs the office of a small joinery. She talks to Claude with the skill swit
 
 ## The conversation
 
-**Mara:** Make this go away: typing invoices from emails into our table.
+**Mara:** Make it go away: typing invoices from emails into our table.
 
 **Claude:**
 

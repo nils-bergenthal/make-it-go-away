@@ -10,7 +10,7 @@ Danke, dass du mitmachst. Das dauert etwa 20 Minuten.
 ## Ablauf
 1. Such dir eine Aufgabe aus deinem Alltag aus, die immer wiederkommt und nervt.
 2. Ersetze Namen und Zahlen. Gib keine echten Kunden- oder Patientendaten ein.
-3. Starte mit: `Make this go away: [dein Ärgernis in einem Satz]`
+3. Starte mit: `Make it go away: [dein Ärgernis in einem Satz]`
 4. Beantworte die Fragen. Sag "Ergebnis jetzt", wenn du genug hast.
 
 ## Fragen danach

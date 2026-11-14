@@ -1,6 +1,6 @@
 ---
 name: make-it-go-away
-description: Interview me about an annoying, repeating task before anything gets built. Use when someone says "make this go away", wants to automate a task at work, or asks "interview me" about an automation idea. Made for non-technical people, works in any language. Asks one plain question at a time, starting from a real case. Collects the requirements, drafts test cases (acceptance criteria), checks risks, data, access and approvals that people tend to forget. Ends with a build brief (a short spec you can build and check against) plus a task for Claude to copy. Or it ends with an honest recommendation not to automate.
+description: Interview me about an annoying, repeating task before anything gets built. Use when someone says "make it go away", wants to automate a task at work, or asks "interview me" about an automation idea. Made for non-technical people, works in any language. Asks one plain question at a time, starting from a real case. Collects the requirements, drafts test cases (acceptance criteria), checks risks, data, access and approvals that people tend to forget. Ends with a build brief (a short spec you can build and check against) plus a task for Claude to copy. Or it ends with an honest recommendation not to automate.
 allowed-tools: Read Write Edit
 ---
 
