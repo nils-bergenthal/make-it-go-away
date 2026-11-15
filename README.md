@@ -1,6 +1,6 @@
 # make-it-go-away
 
-A few questions, then a build brief, or an honest no.
+A Claude agent skill for requirements gathering before you automate a task: a few plain questions, then a build brief with test cases, or an honest no.
 
 **Status: beta.** It works, it is small, and it has been tried on two real cases by the same person only.
 
@@ -33,6 +33,7 @@ People who are good at their work but not at writing instructions for an AI or d
    - In Claude.ai: open your account settings and look for the skills section. Upload the folder there as a ZIP file. The menu names can change.
    - In Claude Code: copy the folder into your skills folder (`.claude/skills/`).
    - With the command line: `npx skills add nils-bergenthal/make-it-go-away`
+   - As a Claude Code plugin: `/plugin marketplace add nils-bergenthal/make-it-go-away`, then `/plugin install make-it-go-away@make-it-go-away`
 2. Start a new conversation and say: `Make it go away: [your problem, described briefly]`
 3. Answer one question at a time. Say "result now" at any time.
 

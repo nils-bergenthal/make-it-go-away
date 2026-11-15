@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.1.0 (beta, not yet published)
+## 0.1.0 (beta)
+
+- Added Claude Code plugin files (`.claude-plugin/`) so the skill can be installed with `/plugin marketplace add`.
 
 - First version: four stages (the case, test cases, risks, result).
 - Result: verdict first, build brief, task to copy, final recommendation.

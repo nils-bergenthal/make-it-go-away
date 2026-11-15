@@ -1,0 +1,11 @@
+{
+  "name": "make-it-go-away",
+  "owner": { "name": "nils-bergenthal" },
+  "plugins": [
+    {
+      "name": "make-it-go-away",
+      "source": "./",
+      "description": "Claude agent skill for requirements gathering before you automate a task: plain questions, then a build brief with test cases, or an honest no."
+    }
+  ]
+}

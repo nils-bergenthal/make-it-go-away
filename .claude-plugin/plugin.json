@@ -1,0 +1,10 @@
+{
+  "name": "make-it-go-away",
+  "version": "0.1.0",
+  "description": "Claude agent skill that interviews non-technical people about an annoying, repeating task and writes a build brief (requirements spec with test cases) or an honest recommendation not to automate.",
+  "author": { "name": "nils-bergenthal" },
+  "homepage": "https://github.com/nils-bergenthal/make-it-go-away",
+  "repository": "https://github.com/nils-bergenthal/make-it-go-away",
+  "license": "MIT",
+  "keywords": ["agent-skill", "claude-code", "requirements-gathering", "automation"]
+}
